@@ -1,3 +1,4 @@
+package com.src.test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -60,6 +61,7 @@ public class test_1 {
 			String actual_title =driver.getTitle();
 			
 		    Assert.assertEquals(actual_title, expected_title);
+		    
 		    System.out.println("TC_002 Passed");
 
 			
