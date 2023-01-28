@@ -23,6 +23,8 @@ public class test_1 {
 		String actual_title =driver.getTitle();
 		
 	    Assert.assertEquals(actual_title, expected_title);
+	    
+	    System.out.println("TC_001 Passed");
 		
 	}	
 	
@@ -34,6 +36,8 @@ public class test_1 {
 			WebDriverManager.chromedriver().setup();
 			
 			driver.get("https://www.thetestingworld.com/");
+			
+		
 	  }
 	  
 	  @AfterMethod
@@ -56,6 +60,8 @@ public class test_1 {
 			String actual_title =driver.getTitle();
 			
 		    Assert.assertEquals(actual_title, expected_title);
+		    System.out.println("TC_002 Passed");
+
 			
 		}	
 		
